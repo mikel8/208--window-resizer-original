@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Window Resizer",
+  "version": "2.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "window-resizer-16_x_16.png",
+      "48": "window-resizer-48_x_48.png",
+      "128": "window-resizer-128_x_128.png"
+    }
+  },
+ 
+  "icons": {
+    "16": "window-resizer-16_x_16.png",
+    "48": "window-resizer-48_x_48.png",
+    "128": "window-resizer-128_x_128.png"
+  }
+}

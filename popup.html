@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Window Resizer</title>
+    <style>
+      body {
+        width: 200px;
+        height: 100px;
+        font-family: Arial, sans-serif;
+        padding: 10px;
+      }
+
+      label {
+        display: inline-block;
+        width: 40px;
+      }
+
+      input {
+        width: 50px;
+        padding: 5px;
+        margin-bottom: 5px;
+      }
+
+      #resize-button {
+        display: block;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <label for="height">Height:</label>
+    <input type="text" id="height" /><br />
+    <label for="width">Width:</label>
+    <input type="text" id="width" /><br />
+    <button id="resize-button">Resize Now</button>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
